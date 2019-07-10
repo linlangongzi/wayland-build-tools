@@ -1,9 +1,9 @@
 #!/bin/bash
 
-. ~/bin/wl_defines.sh
+. wl_defines.sh
 
 # generic build dependencies for ubuntu
-sudo apt-get -y install autoconf automake bison debhelper dpkg-dev flex
+sudo apt-get -y install autoconf automake bison debhelper dpkg-dev flex meson
 sudo apt-get -y install pkg-config quilt python-libxml2
 
 # wayland/weston specific stuff
