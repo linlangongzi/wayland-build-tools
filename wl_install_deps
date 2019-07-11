@@ -5,7 +5,8 @@
 # generic build dependencies for ubuntu
 sudo apt-get -y install autoconf automake bison debhelper dpkg-dev flex meson
 sudo apt-get -y install pkg-config quilt python-libxml2
-
+sudo apt install libxml2-dev
+sudo apt install libtool
 # wayland/weston specific stuff
 sudo apt-get -y install xmlto
 sudo apt-get -y install doxygen
